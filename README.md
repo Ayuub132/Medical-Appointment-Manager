@@ -96,27 +96,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-Features
+### Features
 
-Patient Functionality:
+# Patient Functionality:
 
 Book appointments by selecting dates and times.
 
 View upcoming appointments and cancel if necessary.
 
-Doctor Functionality:
+# Doctor Functionality:
 
 Access a list of appointments.
 
 View and update patient medical records, including vaccination history.
 
-Receptionist Functionality:
+# Receptionist Functionality:
 
 Manage all appointments.
 
 Delete appointments from the schedule when necessary.
 
-Technologies Used
+
+
+# Technologies Used
 
 Front-End: React, govuk-react for UI components following UK Government Digital Service guidelines.
 
@@ -128,9 +130,13 @@ Security: Password hashing with bcrypt, basic error handling, and data validatio
 
 Other: RESTful API design, JavaScript, HTML, and CSS.
 
-File Structure
+
+
+
+# File Structure
 
 Here is an overview of key files and components in this repository:
+
 
 Front-End Components
 
@@ -153,7 +159,9 @@ Back-End Endpoints (in server.js)
 /patients (GET): Retrieves patient information for doctors to view and update medical records.
 
 
-Usage
+
+
+# Usage
 
 Booking Appointments: Patients can book appointments by selecting a date and time.
 
@@ -164,7 +172,7 @@ Doctor View: Doctors can access and update medical records and vaccine history.
 Receptionist Dashboard: Receptionists can view all appointments and manage them as needed.
 
 
-Security Considerations
+### Security Considerations
 
 Passwords are hashed using bcrypt for secure storage.
 
