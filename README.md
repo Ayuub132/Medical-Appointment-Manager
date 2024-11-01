@@ -1,6 +1,6 @@
 # GP Surgery Appointment System
 
-Project Overview
+##Project Overview
 
 The GP Surgery Appointment System is a full-stack application designed to streamline the booking, management, and updating of medical appointments within a GP surgery setting. This system allows patients to book and cancel appointments, doctors to view and update medical records, and receptionists to manage appointment schedules. Built using React for the front-end and Node.js for the back-end, this project emphasizes security, accessibility, and user-friendly design.
 
@@ -19,7 +19,39 @@ Start the backend server
 Start the front-end
 
 
+### Features
 
+# Patient Functionality:
+
+Book appointments by selecting dates and times.
+
+View upcoming appointments and cancel if necessary.
+
+# Doctor Functionality:
+
+Access a list of appointments.
+
+View and update patient medical records, including vaccination history.
+
+# Receptionist Functionality:
+
+Manage all appointments.
+
+Delete appointments from the schedule when necessary.
+
+
+
+# Technologies Used
+
+Front-End: React, govuk-react for UI components following UK Government Digital Service guidelines.
+
+Back-End: Node.js, Express for API handling.
+
+Database: SQLite (local) and central vaccine database synchronization.
+
+Security: Password hashing with bcrypt, basic error handling, and data validation.
+
+Other: RESTful API design, JavaScript, HTML, and CSS.
 
 
 # Getting Started with Create React App
@@ -96,44 +128,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-### Features
-
-# Patient Functionality:
-
-Book appointments by selecting dates and times.
-
-View upcoming appointments and cancel if necessary.
-
-# Doctor Functionality:
-
-Access a list of appointments.
-
-View and update patient medical records, including vaccination history.
-
-# Receptionist Functionality:
-
-Manage all appointments.
-
-Delete appointments from the schedule when necessary.
 
 
 
-# Technologies Used
-
-Front-End: React, govuk-react for UI components following UK Government Digital Service guidelines.
-
-Back-End: Node.js, Express for API handling.
-
-Database: SQLite (local) and central vaccine database synchronization.
-
-Security: Password hashing with bcrypt, basic error handling, and data validation.
-
-Other: RESTful API design, JavaScript, HTML, and CSS.
-
-
-
-
-# File Structure
+### File Structure
 
 Here is an overview of key files and components in this repository:
 
