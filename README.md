@@ -1,48 +1,83 @@
-GP Surgery Appointment System
+# GP Surgery Appointment System
+
 Project Overview
+
 The GP Surgery Appointment System is a full-stack application designed to streamline the booking, management, and updating of medical appointments within a GP surgery setting. This system allows patients to book and cancel appointments, doctors to view and update medical records, and receptionists to manage appointment schedules. Built using React for the front-end and Node.js for the back-end, this project emphasizes security, accessibility, and user-friendly design.
 
 Features
+
 Patient Functionality:
+
 Book appointments by selecting dates and times.
+
 View upcoming appointments and cancel if necessary.
+
 Doctor Functionality:
+
 Access a list of appointments.
+
 View and update patient medical records, including vaccination history.
+
 Receptionist Functionality:
+
 Manage all appointments.
+
 Delete appointments from the schedule when necessary.
+
 Technologies Used
+
 Front-End: React, govuk-react for UI components following UK Government Digital Service guidelines.
+
 Back-End: Node.js, Express for API handling.
+
 Database: SQLite (local) and central vaccine database synchronization.
+
 Security: Password hashing with bcrypt, basic error handling, and data validation.
+
 Other: RESTful API design, JavaScript, HTML, and CSS.
+
 File Structure
+
 Here is an overview of key files and components in this repository:
 
 Front-End Components
+
 Booking.js: Handles patient appointment booking, including date and time selection.
+
 BookingInput.js: Renders the date picker and time selector for booking appointments.
+
 PatientAppointments.js: Allows patients to view and cancel appointments.
+
 DoctorMedical1.js: Displays a list of patients for doctors, enabling navigation to individual medical records.
+
 DoctorUpdateMedicalF.js: Allows doctors to update a selected patient's vaccination record.
+
 Back-End Endpoints (in server.js)
+
 /bookings (POST): Processes patient booking requests, verifies availability, and updates the database.
+
 /appointments (DELETE): Deletes appointments based on patient or receptionist actions.
+
 /patients (GET): Retrieves patient information for doctors to view and update medical records.
 
 
 Usage
+
 Booking Appointments: Patients can book appointments by selecting a date and time.
+
 Viewing and Cancelling: Patients can view their upcoming appointments and cancel if necessary.
+
 Doctor View: Doctors can access and update medical records and vaccine history.
+
 Receptionist Dashboard: Receptionists can view all appointments and manage them as needed.
 
 
 Security Considerations
+
 Passwords are hashed using bcrypt for secure storage.
+
 Basic error handling for form inputs, ensuring data integrity.
+
 Vulnerabilities like SQL injection, XSS, and CSRF are acknowledged; future improvements include implementing prepared statements and enhancing client-side validation.
 
 
@@ -51,13 +86,17 @@ Vulnerabilities like SQL injection, XSS, and CSRF are acknowledged; future impro
 
 
 
-Project Setup
+# Project Setup
 To run this project locally:
 
 Clone the repository
+
 Navigate to the project directory
+
 Install dependencies
+
 Start the backend server
+
 Start the front-end
 
 
